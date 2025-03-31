@@ -7,20 +7,23 @@ import ImageComponent from "./ImageComponent";
 
 function App() {
   return (
-    <>
-      {" "}
-      <ImageComponent
-        link="https://www.sonoinviaggio.com/wp-content/uploads/2022/12/tokyo-cosa-vedere-giappone.jpg"
-        alt="Japan"
-      />
-      <ButtonComponent name="Prova" />
+    <main>
       <h1>Capiamo React! </h1>
-      <ButtonComponent name="Ciao" />
-      <ImageComponent
-        link="https://as2.ftcdn.net/v2/jpg/04/40/67/41/1000_F_440674167_FRF6S4MySDBoqqjeIUVoJp8KKJP2CkOb.jpg"
-        alt="Japan"
-      />
-    </>
+      <div>
+        <ImageComponent
+          link="https://www.sonoinviaggio.com/wp-content/uploads/2022/12/tokyo-cosa-vedere-giappone.jpg"
+          alt="Japan"
+        />
+        <ButtonComponent name="Prova" />
+      </div>
+      <div>
+        <ImageComponent
+          link="https://as2.ftcdn.net/v2/jpg/04/40/67/41/1000_F_440674167_FRF6S4MySDBoqqjeIUVoJp8KKJP2CkOb.jpg"
+          alt="Japan"
+        />{" "}
+        <ButtonComponent name="Ciao" />
+      </div>
+    </main>
   );
 }
 
